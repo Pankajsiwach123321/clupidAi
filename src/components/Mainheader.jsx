@@ -5,7 +5,7 @@ const Mainheader = () => {
     <div className="relative z-10">
       <div className=" max-w-content mx-auto px-3 ">
         <div className="flex flex-col w-full justify-center items-center max-w-[899px] px-3 mx-auto relative z-10 mt-16 pt-2">
-          <h2 className="font-semibold text-center text-white lg:text-6xl  md:text-5xl text-3xl md:!leading-[65px] leading-[44px]">
+          <h2 className="font-semibold text-center text-white lg:text-7xl  md:text-5xl text-3xl md:!leading-[65px] leading-[44px]">
             Unleash{" "}
             <span className="text-transparent font-bold bg-headerTextgradient bg-clip-text">
               Creativity
