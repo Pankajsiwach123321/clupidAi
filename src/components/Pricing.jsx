@@ -45,7 +45,7 @@ const Pricing = () => {
                   key={index}
                   className="w-full mt-8 lg:w-4/12 md:w-6/12 flex items-center justify-center lg:mt-0 md:mt-10"
                 >
-                  <div className="max-w-[410px] relative z-10 transition-all duration-300 ease-linear cursor-pointer blur_box_border hover:scale-[1.03] hover:z-20 group lg:min-h-[723px] md:min-h-[774px] min-h-[667px] h-full">
+                  <div className="max-w-[410px] relative z-10 transition-all duration-300 ease-linear cursor-pointer blur_box_border backdrop-blur-sm bg-[#ffffff0d] hover:after:p-[3px] rounded-3xl  hover:scale-[1.03] hover:z-20 group lg:min-h-[723px] md:min-h-[774px] min-h-[667px] h-full">
                     <div className="p-8 bg- rounded-3xl flex justify-between flex-col lg:min-h-[723px] md:min-h-[774px] min-h-[667px] h-full transition-all duration-300 ease-linear">
                       <div className="transition-all duration-300 ease-linear ">
                         <h3 className="inline-block text-lg font-medium text-white transition-all duration-500 ease-linear group-hover:text-3xl1 leading-18 group-hover:bg-clip-text group-hover:bg-textgradient group-hover:text-transparent">
@@ -90,7 +90,7 @@ const Pricing = () => {
                   key={index}
                   className="w-full mt-8 lg:w-4/12 md:w-6/12 sm:w-10/12 lg:mt-0 md:mt-10 flex items-center justify-center"
                 >
-                  <div className="max-w-[410px] relative z-10 transition-all duration-300 ease-linear cursor-pointer blur_box_border hover:scale-[1.03] hover:z-20 group lg:min-h-[723px] md:min-h-[774px] min-h-[667px] h-full">
+                  <div className="max-w-[410px] relative z-10 transition-all duration-300 ease-linear cursor-pointer blur_box_border backdrop-blur-sm bg-[#ffffff0d] hover:after:p-[3px] rounded-3xl  hover:scale-[1.03] hover:z-20 group lg:min-h-[723px] md:min-h-[774px] min-h-[667px] h-full">
                     <div className="p-8 rounded-3xl flex justify-between flex-col lg:min-h-[723px] md:min-h-[774px] min-h-[667px] h-full transition-all duration-300 ease-linear">
                       <div>
                         <h3 className="inline-block text-lg font-medium text-white transition-all duration-500 ease-linear group-hover:text-3xl1 leading-18 group-hover:bg-clip-text group-hover:bg-textgradient group-hover:text-transparent">

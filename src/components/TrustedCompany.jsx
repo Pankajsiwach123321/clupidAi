@@ -15,9 +15,12 @@ const TrustedCompany = () => {
         </p>
         <div className="flex items-center justify-center px-3 mt-8 gap-7 xl:gap-12 max-slg:animate-moveX max-sm:animate-moveSmX">
           {companiesData.map((obj, i) => (
-            <a className={`min-w-40 lg:min-w-44 ${obj.none} `} href={obj.link}>
+            <a
+              key={i}
+              className={`min-w-40 lg:min-w-44 ${obj.none} `}
+              href={obj.link}
+            >
               <img
-                key={i}
                 src={obj.companyLogo}
                 alt={obj.alt}
                 className={` w-full   object-contain  lg:min-h-12`}

@@ -24,8 +24,9 @@ const Navbar = () => {
               } flex max-lg:fixed z-10 max-lg:top-0 max-lg:bg-black md:bg-full max-lg:justify-center bg-cover max-lg:h-full max-lg:w-full max-lg:z-30 max-lg:duration-300 max-lg:flex-col items-center gap-7`}
             >
               {navLink.map((data, index) => (
-                <li>
+                <li key={index}>
                   <a
+                    onClick={() => setOpen(false)}
                     href={data.to}
                     className=" navlink duration-300 text-white font-normal text-xl leading-6"
                   >
