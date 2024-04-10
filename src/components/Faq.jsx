@@ -14,8 +14,8 @@ const Faq = () => {
     setOpen(open === index ? true : index);
   };
   return (
-    <div id="faqs" className=" px-3 mx-auto max-w-[700px]">
-      <div className="max-w-[700px] mx-auto pt-16 sm:pt-32 md:pt-52 lg:pt-64">
+    <div id="faqs" className=" px-3 mx-auto lg:mb-4 lg:pb-1 max-w-[700px]">
+      <div className="max-w-[700px] mx-auto pt-16 sm:pt-32 md:pt-52 lg:pt-72 lg:mt-1">
         <h2 className="text-4xl font-bold tracking-tighter text-white leading-11">
           FAQs
         </h2>

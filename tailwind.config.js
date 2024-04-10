@@ -53,7 +53,9 @@ export default {
         'dark-black-300': '#110E19',
         'gray-white-600': '#FFFFFF0D',
         'gray-black-200': '#858585',
-        'dark-gray-200': '#646464'
+        'dark-gray-200': '#646464',
+        'dark-gray-300': '#616569', 
+        'dark-white-300': '#A3ABB2', 
       },
       boxShadow: {
         'gradientMix': '0 0 20px 1px #F800B9',

@@ -10,7 +10,7 @@ const IdentityHub = () => {
         <span className="-mt-1">
           <GradientLineSvg />
         </span>
-        <p className="mt-3 text-base font-normal text-center md:leading-8 sm:text-lg lg:text-xl text-gray-white-100 md:mt-4">
+        <p className="mt-3 text-base font-normal text-center md:leading-8 sm:text-lg lg:text-xl text-gray-white md:mt-4">
           Unleash the power of AI within cupid. Upgrade your productivity with
           cupid, the open AI chat app.
         </p>

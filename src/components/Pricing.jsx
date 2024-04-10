@@ -5,7 +5,7 @@ import { PricedataMonth, PricedataYear } from "./PricingData";
 const Pricing = () => {
   const [toggle, setToggle] = useState(1);
   return (
-    <div className="relative mt-10 lg:mt-20 sm:mt-20 overflow-x-clip">
+    <div className="relative z-[1] mt-10 lg:mt-20 sm:mt-20 overflow-x-clip">
       <div
         id="pricing"
         className="xl:max-w-[1219px] lg:pt-24 md:pt-14 pt-10 mx-auto px-3 container"
@@ -13,7 +13,7 @@ const Pricing = () => {
         <h2 className="font-bold tracking-tighter text-center text-white lg:text-4xl sm:text-3xl2 text-3xl1 leading-16">
           Pricing
         </h2>
-        <p className="pt-4 font-medium text-center text-dark-gray text-xxl sm:pt-5">
+        <p className="pt-4 font-medium text-center text-dark-gray-300 text-xxl sm:pt-5">
           Tweak anything and everything to ensure fits{" "}
           <span className="sm:block">
             your business, not the other way around.
@@ -51,7 +51,7 @@ const Pricing = () => {
                         <h3 className="inline-block text-lg font-medium text-white transition-all duration-500 ease-linear group-hover:text-3xl1 leading-18 group-hover:bg-clip-text group-hover:bg-textgradient group-hover:text-transparent">
                           {item.heading}
                         </h3>
-                        <p className="my-6 text-base font-medium leading-15 text-dark-gray">
+                        <p className="my-6 text-base font-medium leading-15   text-dark-white-300">
                           {item.para}
                         </p>
                         <div className="flex items-center gap-2">
@@ -59,17 +59,19 @@ const Pricing = () => {
                             {item.price}
                           </h3>
                           <div className="flex flex-col h-full">
-                            <p className="font-medium text-2sm text-dark-gray leading-17">
+                            <p className="font-medium text-2sm   text-dark-white-300 leading-17">
                               / month
                             </p>
-                            <p className="font-medium text-2sm text-dark-gray leading-17">
+                            <p className="font-medium text-2sm   text-dark-white-300 leading-17">
                               {item.user}
                             </p>
                           </div>
                           {item.disbtn}
                         </div>
                         {item.billed}
-                        <p className="mb-4 font-medium text-2sm text-dark-gray leading-17">
+                        <p
+                          className={`mb-4  font-medium text-2sm   text-dark-white-300 leading-17 ${item.color} `}
+                        >
                           What’s included
                         </p>
                         {item.includedata}
@@ -96,7 +98,7 @@ const Pricing = () => {
                         <h3 className="inline-block text-lg font-medium text-white transition-all duration-500 ease-linear group-hover:text-3xl1 leading-18 group-hover:bg-clip-text group-hover:bg-textgradient group-hover:text-transparent">
                           {item.heading}
                         </h3>
-                        <p className="my-6 text-base font-medium leading-15 text-dark-gray">
+                        <p className="my-6 text-base font-medium leading-15   text-dark-white-300">
                           {item.para}
                         </p>
                         <div className="flex items-center gap-2">
@@ -104,17 +106,17 @@ const Pricing = () => {
                             {item.price}
                           </h3>
                           <div className="flex flex-col h-full">
-                            <p className="font-medium text-2sm text-dark-gray leading-17">
+                            <p className="font-medium text-2sm   text-dark-white-300 leading-17">
                               / month
                             </p>
-                            <p className="font-medium text-2sm text-dark-gray leading-17">
+                            <p className="font-medium text-2sm   text-dark-white-300 leading-17">
                               {item.user}
                             </p>
                           </div>
                           {item.disbtn}
                         </div>
                         {item.billed}
-                        <p className="mb-4 font-medium text-2sm text-dark-gray leading-17">
+                        <p className="mb-4 font-medium text-2sm   text-dark-white-300 leading-17">
                           What’s included
                         </p>
                         {item.includedata}
@@ -143,7 +145,7 @@ const Pricing = () => {
           </a>
         </div>
       </div>
-      <div className="bg-[#2980D6] lg:w-[778px] h-[778px] w-[400px] blur-[1000px] absolute top-[25%] left-[-50%] lg:z-20 z-[9]"></div>
+      <div className="bg-[#2980D6] lg:w-[778px] h-[778px] w-[400px] blur-[1000px] absolute top-[25%] left-[-50%] -z-[1]"></div>
     </div>
   );
 };
