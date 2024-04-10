@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isOpen, setOpen] = useOverflowHidden(false);
   return (
     <div className="max-w-content px-3 mx-auto pt-10 relative ">
-      <div className="  rounded-full p-[1px] bg-gradient-to-l from-black-primary-200 to-gray-white-500">
+      <div className="  after:rounded-full navbarS relative">
         <nav className=" py-4 bg-navBg   rounded-full px-[10px]">
           <div className=" flex items-center justify-between">
             <ul>

@@ -9,7 +9,7 @@ const Cupidai = () => {
           A CRM created <br />
           to be your own.
         </h2>
-        <p className="  font-medium text-xxl text-dark-gray mt-[22px] tracking-[0.2px]">
+        <p className="  font-medium text-xxl text-dark-gray-200 mt-[22px] tracking-[0.2px]">
           Tweak anything and everything to ensure fits
           <br />
           your business, not the other way around.

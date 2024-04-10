@@ -15,12 +15,14 @@ const TrustedCompany = () => {
         </p>
         <div className="flex items-center justify-center px-3 mt-8 gap-7 xl:gap-12 max-slg:animate-moveX max-sm:animate-moveSmX">
           {companiesData.map((obj, i) => (
-            <img
-              key={i}
-              src={obj.companyLogo}
-              alt={obj.alt}
-              className={` cursor-pointer xl:w-full md:w-40 lg:w-44 object-contain  h-12 ${obj.none}`}
-            />
+            <a className={`min-w-40 lg:min-w-44 ${obj.none} `} href={obj.link}>
+              <img
+                key={i}
+                src={obj.companyLogo}
+                alt={obj.alt}
+                className={` w-full   object-contain  lg:min-h-12`}
+              />
+            </a>
           ))}
         </div>
       </div>

@@ -7,7 +7,7 @@ import { HeroGradiant } from "./comman/Icon";
 const Header = () => {
   return (
     <>
-      <div className=" lg:min-h-[810px] min-h-[667px] overflow-hidden  relative ">
+      <div className=" lg:min-h-[781px] min-h-[667px] overflow-hidden  relative ">
         <span className="absolute bottom-0 z-0 left-0  w-full h-full">
           <HeroGradiant />
         </span>

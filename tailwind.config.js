@@ -29,7 +29,7 @@ export default {
       },
       colors: {
         'main': '#040403',
-        'navBg': '#01020F',
+        'navBg': '#01020f63',
         'black-primary-200': '#FBF0F02E',
         'gray-white-500': '#FFFFFF1A',
         'gray-white-200': '#EAECF0',
@@ -91,11 +91,25 @@ export default {
           },
         },
       },
+      lineHeight: {
+        '11': '48.41px',
+        '12': '56px',
+        '13': '72px',
+        '14': '81%',
+        '15': '125%',
+        '16': '140%',
+        '17': '147%',
+        '18': '156%'
+      },
       screens: {
         'slg': '940px',
       },
       backgroundSize: {
         "BgSize": "100% 100%"
+      },
+      borderRadius: {
+        '2md': '41px',
+        '3md': '48px',
       },
     },
   },
