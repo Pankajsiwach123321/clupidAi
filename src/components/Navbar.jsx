@@ -49,7 +49,7 @@ const Navbar = () => {
               </button>
               <CommonButton name="Sing up" />
             </ul>
-            <div className="relative z-[7] mx-2 sm:mx-3 lg:hidden">
+            <div className="relative z-[40] mx-2 sm:mx-3 lg:hidden">
               <Hamburger
                 toggled={isOpen}
                 toggle={setOpen}
