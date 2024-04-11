@@ -108,6 +108,40 @@ export const PricedataMonth = [
         heading: "Indivisual",
         para: "Everything you need to supercharge your productivity.",
         includedata: (<IndividualData />),
+        price: "£9",
+        user: "",
+        disbtn: "",
+        billed: (<GradientLine />),
+    },
+    {
+        id: 2,
+        heading: "Entrepreneur",
+        para: "Unlock a new level of your personal productivity.",
+        includedata: (<Entrepreneurcontent />),
+        price: "£15",
+        user: "",
+        disbtn: (<DiscountBtn />),
+        billed: (<GradientLineBtn />),
+
+    },
+    {
+        id: 3,
+        heading: "Business",
+        para: "Supercharge your team and maximize productivity.",
+        includedata: (<BusinessData />),
+        price: "£30",
+        user: "/ user",
+        disbtn: (<DiscountBtn />),
+        billed: (<GradientLineBtn />)
+    }
+]
+
+export const PricedataYear = [
+    {
+        id: 1,
+        heading: "Indivisual",
+        para: "Everything you need to supercharge your productivity.",
+        includedata: (<IndividualData />),
         price: "£24",
         user: "",
         disbtn: "",
@@ -122,7 +156,6 @@ export const PricedataMonth = [
         user: "",
         disbtn: (<DiscountBtn />),
         billed: (<GradientLineBtn />),
-
     },
     {
         id: 3,
@@ -130,39 +163,6 @@ export const PricedataMonth = [
         para: "Supercharge your team and maximize productivity.",
         includedata: (<BusinessData />),
         price: "£120",
-        user: "/ user",
-        disbtn: (<DiscountBtn />),
-        billed: (<GradientLineBtn />)
-    }
-]
-
-export const PricedataYear = [
-    {
-        id: 1,
-        heading: "Indivisual",
-        para: "Everything you need to supercharge your productivity.",
-        includedata: (<IndividualData />),
-        price: "£240",
-        user: "",
-        disbtn: "",
-        billed: (<GradientLine />),
-    },
-    {
-        id: 2,
-        heading: "Entrepreneur",
-        para: "Unlock a new level of your personal productivity.",
-        includedata: (<Entrepreneurcontent />),
-        price: "£360",
-        user: "",
-        disbtn: (<DiscountBtn />),
-        billed: (<GradientLineBtn />),
-    },
-    {
-        id: 3,
-        heading: "Business",
-        para: "Supercharge your team and maximize productivity.",
-        includedata: (<BusinessData />),
-        price: "£1200",
         user: "/ user",
         disbtn: (<DiscountBtn />),
         billed: (<GradientLineBtn />)
