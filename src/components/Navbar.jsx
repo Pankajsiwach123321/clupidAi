@@ -7,7 +7,7 @@ import { Twirl as Hamburger } from "hamburger-react";
 const Navbar = () => {
   const [isOpen, setOpen] = useOverflowHidden(false);
   return (
-    <div className="max-w-content px-3 mx-auto pt-10 relative ">
+    <div className="max-w-content px-3 mx-auto pt-10 relative  ">
       <div className="  after:rounded-full navbarS relative">
         <nav className=" py-4 bg-navBg   rounded-full px-[10px]">
           <div className=" flex items-center justify-between">
@@ -49,7 +49,7 @@ const Navbar = () => {
               </button>
               <CommonButton name="Sing up" />
             </ul>
-            <div className="relative z-[110] mx-2 sm:mx-3 lg:hidden">
+            <div className="relative z-[40] mx-2 sm:mx-3 lg:hidden">
               <Hamburger
                 toggled={isOpen}
                 toggle={setOpen}
