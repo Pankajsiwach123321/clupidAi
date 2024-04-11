@@ -183,6 +183,7 @@ export const serviceCardItems = [
     paragraph:
       "Transform productivity with our sophisticated automation tools. Let technology work tirelessly behind the scenes, so your creativity never has to pause.",
     width: "sm:w-7/12 md:max-w-[526px]",
+    paraWidth:'max-w-[425px]'
   },
 ];
 export const Enterpreneurdata = [

@@ -26,6 +26,7 @@ const Service = () => {
                   head={p.heading}
                   para={p.paragraph}
                   width={p.width}
+                  paraWidth={p.paraWidth}
                 />
               ))}
             </div>

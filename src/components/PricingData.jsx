@@ -87,12 +87,13 @@ export const GradientLine = () => {
 
 export const GradientLineBtn = () => {
     return (
-        <div className='relative flex items-center justify-center md:mt-8 md:mb-9 my-7'>
-            <button className='text-2sm font-medium text-white leading-2xl text-center mx-auto py-1 px-3 bg-gray-white-500 rounded-[10px] relative z-10'>£408 billed annually</button>
-            <div className='bg-whitegradient absolute w-full h-[1px] left-0 right-0 z-[1]'>
-            </div>
-        </div>
-    )
+      <div className="relative flex items-center justify-center md:mt-8 md:mb-9 my-7">
+        <button className="text-2sm font-medium text-white leading-2xl text-center mx-auto py-1 px-3 bg-[#2D3339] rounded-[10px] relative z-10">
+          £408 billed annually
+        </button>
+        <div className="bg-whitegradient absolute w-full h-[1px] left-0 right-0 z-[1]"></div>
+      </div>
+    );
 }
 
 export const DiscountBtn = () => {

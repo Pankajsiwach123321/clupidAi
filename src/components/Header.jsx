@@ -17,7 +17,7 @@ const Header = () => {
       <img
         src={dashBoardImg}
         alt="dashBoardImg"
-        className="mx-auto lg:-translate-y-[43%] -translate-y-[55%]  pl-4 sm:pl-5 md:pl-8 lg:pl-12 lg:w-[1015px] md:w-[600px] max-h-[400px] md:max-h-[687px] relative z-10"
+        className="mx-auto lg:-translate-y-[43%] -translate-y-[55%]  pl-4 sm:pl-5 md:pl-8 lg:pl-12 lg:w-[915px] md:w-[600px] max-h-[400px] md:max-h-[687px] relative z-10"
       />
     </>
   );

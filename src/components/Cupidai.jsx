@@ -43,7 +43,7 @@ const Cupidai = () => {
         <div className="flex justify-center ">
           <YellowMan />
         </div>
-        <p className="  font-normal mt-6 text-xxl leading-[30px] tracking-wide text-center max-w-[579px] mx-auto text-gray-light-300">
+        <p className="  font-normal mt-6 text-xxl leading-[30px] tracking-wide text-center max-w-[640px] mx-auto text-gray-light-300">
           “My team loves cupid reporting system because it’s so dynamic. We can
           splice our data in so many different ways and combinations.”
         </p>
