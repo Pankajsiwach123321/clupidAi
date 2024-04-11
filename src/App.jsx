@@ -16,18 +16,20 @@ function App() {
   const isLoading = usePreloader();
   return (
     <>
-      <div className=" bg-main">
-        {isLoading && <Preloader />}
-        <BackToTop />
-        <Header />
-        <TrustedCompany />
-        <Cupidai />
-        <Service />
-        <Pricing />
-        <Faq />
-        <div className=" overflow-hidden">
-          <IdentityHub />
-          <Footer />
+      <div className="bg-main">
+        <div className=" max-w-[1920px] mx-auto bg-main">
+          {isLoading && <Preloader />}
+          <BackToTop />
+          <Header />
+          <TrustedCompany />
+          <Cupidai />
+          <Service />
+          <Pricing />
+          <Faq />
+          <div className=" overflow-hidden">
+            <IdentityHub />
+            <Footer />
+          </div>
         </div>
       </div>
     </>
