@@ -12,7 +12,7 @@ export const IndividualData = () => {
                         <div>
                           <WhiteTick />
                         </div>
-                        <p className="font-medium text-2sm  text-dark-white-300 leading-2xl">
+                        <p className="font-medium text-2sm  group-hover:text-white text-dark-white-300 leading-2xl">
                           {line.description}
                         </p>
                       </div>
@@ -32,7 +32,7 @@ export const Entrepreneurcontent = () => {
                 <div>
                   <WhiteTick />
                 </div>
-                <p className="font-medium text-2sm text-dark-white-300 leading-2xl">
+                <p className="font-medium text-2sm group-hover:text-white text-dark-white-300 leading-2xl">
                   {line.description}
                 </p>
               </div>
@@ -42,7 +42,7 @@ export const Entrepreneurcontent = () => {
             <div>
               <RedStar />
             </div>
-            <p className="font-medium text-2sm text-dark-white-300 leading-2xl">
+            <p className="font-medium text-2sm group-hover:text-white text-dark-white-300 leading-2xl">
               More Coming Soon
             </p>
           </div>
@@ -53,29 +53,33 @@ export const Entrepreneurcontent = () => {
 
 export const BusinessData = () => {
     return (
-        <>
-            <div className='flex flex-col gap-4'>
-                <div className='flex flex-col gap-4'>
-                    {Business.map((line, index) => {
-                        return (
-                            <div key={index} className='flex gap-3 '>
-                                <div>
-                                    <WhiteTick />
-                                </div>
-                                <p className='font-medium text-2sm text-dark-white-300 leading-2xl'>{line.description}</p>
-                            </div>
-                        )
-                    })}
+      <>
+        <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4">
+            {Business.map((line, index) => {
+              return (
+                <div key={index} className="flex gap-3 ">
+                  <div>
+                    <WhiteTick />
+                  </div>
+                  <p className="font-medium text-2sm group-hover:text-white text-dark-white-300 leading-2xl">
+                    {line.description}
+                  </p>
                 </div>
-                <div className='flex gap-3'>
-                    <div>
-                        <RedStar />
-                    </div>
-                    <p className='font-medium text-2sm text-dark-white-300 leading-2xl'>More Coming Soon</p>
-                </div>
+              );
+            })}
+          </div>
+          <div className="flex gap-3">
+            <div>
+              <RedStar />
             </div>
-        </>
-    )
+            <p className="font-medium text-2sm group-hover:text-white text-dark-white-300 leading-2xl">
+              More Coming Soon
+            </p>
+          </div>
+        </div>
+      </>
+    );
 }
 
 export const GradientLine = () => {

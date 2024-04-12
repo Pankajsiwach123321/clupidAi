@@ -3,18 +3,18 @@ import { crmData } from "./comman/Helper";
 import { YellowMan } from "./comman/Icon";
 const Cupidai = () => {
   return (
-    <div id="whyus" className=" bg-bodymain sm:pt-11 mt-[-2px] ">
+    <div id="whyus" className=" bg-bodymain xl:pt-11 mt-[-2px] ">
       <div className="max-w-[1320px] mx-auto px-3">
         <h2 className="  font-bold lg:text-6xl sm:text-4xl text-3xl2 text-white sm:leading-[56px] leading-[42px]  tracking-[-1.2px]">
           A CRM created <br />
           to be your own.
         </h2>
-        <p className="  font-medium text-xxl text-gray mt-[22px] tracking-[0.2px]">
+        <p className="  font-medium lg:text-xxl  md:text-xl text-base text-gray mt-[22px] tracking-[0.2px]">
           Tweak anything and everything to ensure fits
-          <br />
+          <br className=" max-sm:hidden" />
           your business, not the other way around.
         </p>
-        <div className=" overflow-hidden my-10 md:mb-20 md:mt-[92px]  pt-9 px-3 sm:px-6 lg:px-10 border-[#3C3C3C] border  rounded-[20px] bg-[#0A0A0A] ">
+        <div className=" overflow-hidden   xl:mb-20 xl:mt-[92px] my-10  pt-9 px-3 sm:px-6 lg:px-10 border-[#3C3C3C] border  rounded-[20px] bg-[#0A0A0A] ">
           <div className="flex flex-row justify-between mb-5 max-xl:overflow-x-scroll snap-mandatory snap-x scrolbar flex-nowrap sm:mb-11 md:mb-16">
             {crmData.map((obj, i) => (
               <div
@@ -37,7 +37,7 @@ const Cupidai = () => {
             src={clupiAiImage}
             alt="crmai"
             height={387}
-            className="  max-sm:object-contain h-full  xl:min-h-[397px] lg:h-96 w-full rounded-t-[20px]"
+            className="  max-sm:object-contain h-full  xl:min-h-[397px] xl:h-96 w-full rounded-t-[20px]"
           />
         </div>
         <div className="flex justify-center ">
@@ -47,7 +47,7 @@ const Cupidai = () => {
           “My team loves cupid reporting system because it’s so dynamic. We can
           splice our data in so many different ways and combinations.”
         </p>
-        <p className=" pt-7 pb-12 text-gray  font-medium text-sm leading-5 tracking-[-0.1px] text-center">
+        <p className=" xl:pt-7 pt-5 pb-10 md:pb-12 text-gray  font-medium text-sm leading-5 tracking-[-0.1px] text-center">
           Davio White <br />
           Chief of Staff, Pallet
         </p>

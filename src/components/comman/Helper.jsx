@@ -4,13 +4,18 @@ import featherdev from "../../assets/images/featherdev.webp";
 import spherule from "../../assets/images/spherule.webp";
 import globalbank from "../../assets/images/globalbank.webp";
 import {
+  BoltShift,
   FacebookIcon,
+  FeatherDev,
+  GlobalBank,
   GridlineBox,
   InstaIcon,
+  LightBox,
   ServiceDeepfake,
   ServiceGeneration,
   ServiceUtilities,
   ServiceVerification,
+  Spherule,
   TelegramIcon,
   TwiterIcon,
 } from "./Icon";
@@ -77,75 +82,80 @@ export const CommonButton = (props) => {
 };
 export const companiesData = [
   {
-    companyLogo: blotshift,
+    companyLogo: <BoltShift />,
     alt: "blotshift",
     link: "https://ecommerce-excite.vercel.app/",
   },
   {
-    companyLogo: lighbox,
+    companyLogo: <LightBox />,
     alt: "lighbox",
     link: "https://lokeshdhakar.com/projects/lightbox2/",
   },
   {
-    companyLogo: featherdev,
+    companyLogo: <FeatherDev />,
     alt: "featherdev",
     link: "https://featherdev.com/",
   },
   {
-    companyLogo: spherule,
+    companyLogo: <Spherule />,
     alt: "spherule",
     link: "https://spherule.org/",
   },
   {
-    companyLogo: globalbank,
+    companyLogo: <GlobalBank />,
     alt: "globalbank",
     link: "https://www.globalbank.com.pa/",
   },
   {
-    companyLogo: blotshift,
+    companyLogo: <BoltShift />,
     alt: "blotshift",
     none: "slg:hidden",
     link: "https://ecommerce-excite.vercel.app/",
   },
   {
-    companyLogo: lighbox,
+    companyLogo: <LightBox />,
     alt: "lighbox",
     none: "slg:hidden",
     link: "https://lokeshdhakar.com/projects/lightbox2/",
   },
   {
-    companyLogo: featherdev,
+    companyLogo: <FeatherDev />,
     alt: "featherdev",
     none: "slg:hidden",
     link: "https://featherdev.com/",
   },
   {
-    companyLogo: spherule,
+    companyLogo: <Spherule />,
     alt: "spherule",
     none: "slg:hidden",
     link: "https://spherule.org/",
   },
-  { companyLogo: globalbank, alt: "globalbank", none: "slg:hidden" },
   {
-    companyLogo: lighbox,
+    companyLogo: <GlobalBank />,
+    alt: "globalbank",
+    none: "slg:hidden",
+    link: "https://www.globalbank.com.pa/",
+  },
+  {
+    companyLogo: <LightBox />,
     alt: "lighbox",
     none: "slg:hidden",
     link: "https://lokeshdhakar.com/projects/lightbox2/",
   },
   {
-    companyLogo: featherdev,
+    companyLogo: <FeatherDev />,
     alt: "featherdev",
     none: "slg:hidden",
     link: "https://featherdev.com/",
   },
   {
-    companyLogo: spherule,
+    companyLogo: <Spherule />,
     alt: "spherule",
     none: "slg:hidden",
     link: "https://spherule.org/",
   },
   {
-    companyLogo: globalbank,
+    companyLogo: <GlobalBank />,
     alt: "globalbank",
     none: "slg:hidden",
     link: "https://www.globalbank.com.pa/",
@@ -183,7 +193,7 @@ export const serviceCardItems = [
     paragraph:
       "Transform productivity with our sophisticated automation tools. Let technology work tirelessly behind the scenes, so your creativity never has to pause.",
     width: "sm:w-7/12 md:max-w-[526px]",
-    paraWidth:'max-w-[425px]'
+    paraWidth: "max-w-[425px]",
   },
 ];
 export const Enterpreneurdata = [

@@ -13,7 +13,7 @@ const Navbar = () => {
           <div className=" flex items-center justify-between">
             <ul>
               <li>
-                <a href="#">
+                <a href="#home">
                   <NavLogo />
                 </a>
               </li>

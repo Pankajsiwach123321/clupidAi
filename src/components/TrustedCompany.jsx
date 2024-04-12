@@ -4,12 +4,9 @@ const TrustedCompany = () => {
   return (
     <div
       id="features"
-      className="pb-6 -mt-24 overflow-hidden sm:pb-10 sm:-mt-40 md:-mt-64 bg-bodymain "
+      className="xl:pb-6 pb-5 -mt-24 overflow-hidden md:pb-10 sm:-mt-40 md:-mt-64 bg-bodymain "
     >
-      <div
-        id="howtouse"
-        className="max-w-[1112px] mx-auto px-3 pt-7  mt-8 pb-10 mb-8"
-      >
+      <div className="max-w-[1112px] mx-auto px-3 md:pt-7  md:mt-8 md:pb-10 mb-8">
         <p className="  font-normal lg:text-xl sm:text-lg text-base leading-[30px] text-center text-gray-white-200">
           Trusted by 4,000+ companies
         </p>
@@ -17,14 +14,14 @@ const TrustedCompany = () => {
           {companiesData.map((obj, i) => (
             <a
               key={i}
-              className={`min-w-40 lg:min-w-44 ${obj.none} `}
+              className={`min-w-40 lg:min-w-44 group ${obj.none} `}
               href={obj.link}
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <img
-                src={obj.companyLogo}
-                alt={obj.alt}
-                className={` w-full   object-contain  lg:min-h-12`}
-              />
+              <span className=" min-w-40 lg:min-w-44   object-contain  lg:min-h-12">
+                {obj.companyLogo}
+              </span>
             </a>
           ))}
         </div>

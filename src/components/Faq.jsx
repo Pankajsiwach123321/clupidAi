@@ -7,7 +7,6 @@ import React, { useState } from "react";
 import { accordionData } from "./comman/Helper";
 import { Arrow } from "./comman/Icon";
 
-
 const Faq = () => {
   const [open, setOpen] = useState();
   const toggleAccordion = (index) => {
@@ -15,7 +14,7 @@ const Faq = () => {
   };
   return (
     <div id="faqs" className=" px-3 mx-auto lg:mb-4 lg:pb-1 max-w-[700px]">
-      <div className="max-w-[700px] mx-auto pt-16 sm:pt-32 md:pt-52 lg:pt-72 lg:mt-1">
+      <div className="pt-10 md:pt-16 lg:pt-24 xl:pt-72 lg:mt-1">
         <h2 className="text-4xl font-bold tracking-tighter text-white leading-11">
           FAQs
         </h2>
@@ -25,22 +24,21 @@ const Faq = () => {
         {accordionData.map((item, index) => (
           <Accordion
             key={index}
-            onClick={() => toggleAccordion(index)}
-            className={`cursor-pointer border-b border-white border-opacity-10 mt-5 sm:mt-6 md:mt-8 ${
+            className={`border-b border-white border-opacity-10 pb-5   ${
               item.id === 6 ? "border-0" : ""
             }`}
             open={open === index}
             icon={<Arrow id={index} open={open} />}
           >
             <AccordionHeader
-              className={`font-semibold text-white text-2sm md:text-base text-start w-full justify-between gap-3 border-0  mb-0.5 pt-0 duration-500 leading-6 pb-8 focus-visible:outline-none ${
-                open === index ? "" : ""
+              onClick={() => toggleAccordion(index)}
+              className={`font-semibold text-white  text-2sm md:text-base pt-5 sm:pt-6 md:pt-8 text-start w-full  justify-between gap-3 border-0  mb-0.5   leading-6 pb-3 focus-visible:outline-none ${
+                open === index ? "" : " "
               }`}
             >
               {item.title}
             </AccordionHeader>
             <AccordionBody className="py-2 !pt-0  pr-6 text-sm font-normal text-white opacity-70 md:text-sm sm:py-3">
-              {" "}
               {item.description}
             </AccordionBody>
           </Accordion>

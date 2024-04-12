@@ -4,12 +4,12 @@ import { FooterGradientMixup, FooterLogo } from "./comman/Icon";
 const Footer = () => {
   return (
     <div className="relative mt-10 overflow-x-clip sm:mt-16 md:mt-24 lg:mt-32">
-      <div className="container mx-auto relative z-10 max-w-[1300px]">
+      <div className=" px-3 sm:px-24 xl:px-3 mx-auto relative z-10 max-w-[1300px]">
         <nav>
           <div className="flex flex-col items-center justify-between py-6 lg:flex-row">
             <a
               className="flex items-center gap-2 text-3xl font-bold leading-9 text-white"
-              href="/"
+              href="#home"
             >
               <span>
                 <FooterLogo />
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
         </nav>
         <div className="flex flex-col-reverse items-center justify-between w-full py-3 border-t border-white sm:flex-row sm:py-5 md:py-6 border-opacity-20">
-          <p className="mt-4 font-normal font-inter font-sm text-gray-white-100 sm:mt-0">
+          <p className="mt-4 font-normal leading-5 font-inter text-sm text-gray-white-100 sm:mt-0">
             ©{new Date().getFullYear()}. All rights reserved{" "}
           </p>
           <div className="flex items-center gap-4 sm:gap-5 md:gap-8">
