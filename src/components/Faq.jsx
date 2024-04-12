@@ -4,8 +4,8 @@ import {
   AccordionBody,
 } from "@material-tailwind/react";
 import React, { useState } from "react";
-import { accordionData } from "./comman/Helper";
-import { Arrow } from "./comman/Icon";
+import { accordionData } from "./common/Helper";
+import { Arrow } from "./common/Icon";
 
 const Faq = () => {
   const [open, setOpen] = useState();

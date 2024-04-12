@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Mainheader from "./Mainheader";
 import dashBoardImg from "../assets/images/dashboard.webp";
-import { HeroGradiant } from "./comman/Icon";
+import { HeroGradiant } from "./common/Icon";
 
 const Header = () => {
   return (

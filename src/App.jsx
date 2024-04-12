@@ -10,7 +10,7 @@ import Preloader from "./components/Preloader";
 import Pricing from "./components/Pricing";
 import Service from "./components/Service";
 import TrustedCompany from "./components/TrustedCompany";
-import { usePreloader } from "./components/comman/Hooks";
+import { usePreloader } from "./components/common/Hooks";
 
 function App() {
   const isLoading = usePreloader();

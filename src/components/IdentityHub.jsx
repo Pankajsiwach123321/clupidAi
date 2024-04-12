@@ -1,4 +1,4 @@
-import { CircleEllipseSvg, GradientLineSvg } from "./comman/Icon";
+import { CircleEllipseSvg, GradientLineSvg } from "./common/Icon";
 
 const IdentityHub = () => {
   return (

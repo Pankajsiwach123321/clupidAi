@@ -1,15 +1,12 @@
 import { useState } from "react";
-import { WhiteArrow } from "./comman/Icon";
+import { WhiteArrow } from "./common/Icon";
 import { PricedataMonth, PricedataYear } from "./PricingData";
 
 const Pricing = () => {
   const [toggle, setToggle] = useState(1);
   return (
     <div className="relative z-[1] mt-8 xl:mt-20 overflow-x-clip">
-      <div
-        id="pricing"
-        className="max-w-[1220px] xl:pt-24  mx-auto px-3"
-      >
+      <div id="pricing" className="max-w-[1220px] xl:pt-24  mx-auto px-3">
         <h2 className="font-bold tracking-tighter text-center text-white lg:text-4xl sm:text-3xl2 text-3xl1 leading-16">
           Pricing
         </h2>

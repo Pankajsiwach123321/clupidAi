@@ -1,7 +1,7 @@
 import React from "react";
-import { NavLogo } from "./comman/Icon";
-import { CommonButton, navLink } from "./comman/Helper";
-import { useOverflowHidden } from "./comman/Hooks";
+import { NavLogo } from "./common/Icon";
+import { CommonButton, navLink } from "./common/Helper";
+import { useOverflowHidden } from "./common/Hooks";
 import { Twirl as Hamburger } from "hamburger-react";
 
 const Navbar = () => {

@@ -1,4 +1,4 @@
-import { companiesData } from "./comman/Helper";
+import { companiesData } from "./common/Helper";
 
 const TrustedCompany = () => {
   return (

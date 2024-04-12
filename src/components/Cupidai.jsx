@@ -1,6 +1,6 @@
 import clupiAiImage from "../assets/images/clupiai.webp";
-import { crmData } from "./comman/Helper";
-import { YellowMan } from "./comman/Icon";
+import { crmData } from "./common/Helper";
+import { YellowMan } from "./common/Icon";
 const Cupidai = () => {
   return (
     <div id="whyus" className=" bg-bodymain xl:pt-11 mt-[-2px] ">

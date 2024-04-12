@@ -1,5 +1,5 @@
-import { icons, linkData } from "./comman/Helper";
-import { FooterGradientMixup, FooterLogo } from "./comman/Icon";
+import { icons, linkData } from "./common/Helper";
+import { FooterGradientMixup, FooterLogo } from "./common/Icon";
 
 const Footer = () => {
   return (

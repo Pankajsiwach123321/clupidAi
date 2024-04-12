@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { BackToTopIcon } from "./comman/Icon";
+import { BackToTopIcon } from "./common/Icon";
 // import { BackToTopIcon } from "./common/Icons";
 const BackToTop = () => {
   const [isVisible, setIsVisible] = useState(false);

@@ -1,6 +1,6 @@
 import React from "react";
 import ServiceCardlayout from "./ServiceCardlayout";
-import { serviceCardItems } from "./comman/Helper";
+import { serviceCardItems } from "./common/Helper";
 
 const Service = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { CommonButton } from "./comman/Helper";
+import { CommonButton } from "./common/Helper";
 const Mainheader = () => {
   return (
     <div className="relative z-10">
